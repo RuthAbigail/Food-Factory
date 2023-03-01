@@ -1,293 +1,640 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Factory</title>
-    <link rel="stylesheet" href="./scss/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-</head>
-<body>
-
-
-<div class="header">
-    <div class="container">
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
         <div class="header__wrapper d--flex justify--between align--center">
-            <div class="branding">
-                <a href="#">Food<span>Factory</span></a></div>
-            <nav class="header__nav py--1">
-                <ul class="d--flex gap--4 align--center">
-
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Menu</a></li>
-                    <li><a href="#">Book Table</a></li>
-                    <li><a class="gap--1"><a href="#">Contact Us</a></li>
-                    <li><a class="gap--1"><a href="#"class="btn btn-primary">Sign Up</a></li>
-                </ul>
-            </nav>
+          <div class="branding">
+            <a href="#">Food <span>Factory</span></a>
+          </div>
+          <nav class="header__nav py--1">
+            <ul class="d--flex gap--4 align--center">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Menu</a></li>
+              <li><a href="#">Book Table</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#" class="btn btn-primary">Sign Up</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </div>
-</div>
 
-<section class="banner">
-    <div class="container">
-        <div class="banner__wrapper d--flex justify--between align--center" >
-            <div class="banner__content">
-                <h1>The Best Quality <span>Food</span> of Your Choice</h1>
-                <p>
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, vel? Nostrum iusto 
-                excepturi maxime! Dignissimos mollitia fugiat alias!
-                </p>
-                
-                <a href="" class="btn btn-primary">Order Now</a>
-                <a href="" class="btn btn-outline">Get the food</a>
-            </div>
+    <section class="banner">
+      <div class="container">
+        <div class="banner__wrapper d--flex align--center justify--between">
+          <div class="banner__content">
+            <h1>The Best Quality <span> Food </span> of Your Choice</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+              sequi voluptate voluptates sapiente impedit consectetur odit error
+              quasi.
+            </p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+            <a href="#" class="btn btn-outline">Get the Food</a>
+          </div>
 
-<div class="banner__img">
-<img src="./image/burger.png" alt="">
-
-</div>
-
+          <div class="banner__img">
+            <img src="./image/burger.png" alt="" />
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
+    <section class="product py--6">
+      <div class="container">
+        <div class="block__header">
+          <span>Featured Product</span>
+          <h2>Our Best Selling <span>Products</span></h2>
+        </div>
 
-<section class="product py--6">
-    <div class="container">
-    <div class="block__header">
-        <span>Featured product</span>
-        <h2> Our Best Selling <span> Products</span></h2>
-
-    </div>
-
-    <div class="product__cards">
-        <div class="product__item reverse">
-        <img src="./image/burger.png" alt="">
+        <div class="product__cards">
+          <div class="product__item">
+            <img src="./image/burger1.jpg" alt="" />
             <div class="item__info">
-                <h3>Green Salad</h3>
-                    <i class ="far fa-heart"></i>
-                         </div>
-           <div class="item__info">
-               <div class ="item__price">
-                    <small>Price</small>
-                     <h4>$10.00</h4>
-                   </div>
-        <div class="item__review">
-            <small>Review</small>
-            <h4> <i class = "far fa-star"></i>432</h4>
-        </div>
-        </div>
-
-        <a href="#" class="btn btn-outline"> Add to cart</a>
-
+              <h3>Burger</h3>
+              <i class="far fa-heart"></i>
             </div>
-
-            <div class="product__item reverse">
-                <img src="./image/burger.png" alt="">
-                <div class="item__info">
-                    <h3>Green Salad</h3>
-                    <i class ="far fa-heart"></i>
-                </div>
             <div class="item__info">
-                <div class ="item__price">
-                    <small>Price</small>
-                    <h4>$10.00</h4>
-            </div>
-            <div class="item__review">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
                 <small>Review</small>
-                <h4> <i class = "far fa-star"></i>432</h4>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
             </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+
+          <div class="product__item">
+            <img src="./image/chicken.jpg" alt="" />
+            <div class="item__info">
+              <h3>Chicken</h3>
+              <i class="far fa-heart"></i>
             </div>
-    
-            <a href="#" class="btn btn-outline"> Add to cart</a>
-    
-                </div>
-
-                <div class="product__item reverse">
-                    <img src="./image/burger.png" alt="">
-                    <div class="item__info">
-                        <h3>Green Salad</h3>
-                        <i class ="far fa-heart"></i>
-                    </div>
-                <div class="item__info">
-                    <div class ="item__price">
-                        <small>Price</small>
-                        <h4>$10.00</h4>
-                </div>
-                <div class="item__review">
-                    <small>Review</small>
-                    <h4> <i class = "far fa-star"></i>432</h4>
-                </div>
-                </div>
-        
-                <a href="#" class="btn btn-outline"> Add to cart</a>
-        
-                    </div>
-
-                    <div class="product__item reverse">
-                        <img src="./image/burger.png" alt="">
-                        <div class="item__info">
-                            <h3>Green Salad</h3>
-                            <i class ="far fa-heart"></i>
-                        </div>
-                    <div class="item__info">
-                        <div class ="item__price">
-                            <small>Price</small>
-                            <h4>$10.00</h4>
-                    </div>
-                    <div class="item__review">
-                        <small>Review</small>
-                        <h4> <i class = "far fa-star"></i>432</h4>
-                    </div>
-                    </div>
-            
-                    <a href="#" class="btn btn-outline"> Add to cart</a>
-            
-                        </div>
-      
-                                    
-            
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
             </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item">
+            <img src="./image/drinks.jpg" alt="" />
+            <div class="item__info">
+              <h3>Drinks</h3>
+              <i class="far fa-heart"></i>
             </div>
-
-            </section>
-        
-            <section class="categories py--6">
-                <div class="container">
-                  <div class="block__header">
-                    <span>Top Categories</span>
-                    <h2>Explore our top <span>Menu</span></h2>
-                   </div>
-
-                   <div class="category__tab">
-                    <ul>
-                        <li class="active"><a href="#">Burger</a></li>
-                        <li><a href="#">Chicken</a></li>
-                        <li><a href="#">Salad</a></li>
-                        <li><a href="#">Drinks</a></li>
-                        <li><a href="#">Tea</a></li>
-                    </ul>
-                   </div>
-
-                   <div class="product__cards">
-                    <div class="product__item reverse">
-                    <img src="./image/burger.png" alt="">
-                        <div class="item__info">
-                            <h3>Green Salad</h3>
-                                <i class ="far fa-heart"></i>
-                                     </div>
-                       <div class="item__info">
-                           <div class ="item__price">
-                                <small>Price</small>
-                                 <h4>$10.00</h4>
-                               </div>
-                    <div class="item__review">
-                        <small>Review</small>
-                        <h4> <i class = "far fa-star"></i>432</h4>
-                    </div>
-                    </div>
-            
-                    <a href="#" class="btn btn-outline"> Add to cart</a>
-            
-                        </div>
-            
-                        <div class="product__item reverse">
-                            <img src="./image/burger.png" alt="">
-                            <div class="item__info">
-                                <h3>Green Salad</h3>
-                                <i class ="far fa-heart"></i>
-                            </div>
-                        <div class="item__info">
-                            <div class ="item__price">
-                                <small>Price</small>
-                                <h4>$10.00</h4>
-                        </div>
-                        <div class="item__review">
-                            <small>Review</small>
-                            <h4> <i class = "far fa-star"></i>432</h4>
-                        </div>
-                        </div>
-                
-                        <a href="#" class="btn btn-outline"> Add to cart</a>
-                
-                            </div>
-            
-                            <div class="product__item reverse">
-                                <img src="./image/burger.png" alt="">
-                                <div class="item__info">
-                                    <h3>Green Salad</h3>
-                                    <i class ="far fa-heart"></i>
-                                </div>
-                            <div class="item__info">
-                                <div class ="item__price">
-                                    <small>Price</small>
-                                    <h4>$10.00</h4>
-                            </div>
-                            <div class="item__review">
-                                <small>Review</small>
-                                <h4> <i class = "far fa-star"></i>432</h4>
-                            </div>
-                            </div>
-                    
-                            <a href="#" class="btn btn-outline"> Add to cart</a>
-                    
-                                </div>
-            
-                                <div class="product__item reverse">
-                                    <img src="./image/burger.png" alt="">
-                                    <div class="item__info">
-                                        <h3>Green Salad</h3>
-                                        <i class ="far fa-heart"></i>
-                                    </div>
-                                <div class="item__info">
-                                    <div class ="item__price">
-                                        <small>Price</small>
-                                        <h4>$10.00</h4>
-                                </div>
-                                <div class="item__review">
-                                    <small>Review</small>
-                                    <h4> <i class = "far fa-star"></i>432</h4>
-                                </div>
-                                </div>
-                        
-                                <a href="#" class="btn btn-outline"> Add to cart</a>
-                        
-                                    </div>
-                  
-                                                
-                        
-                        </div>
-                </div>
-              </section>
-
-<section class="booking">
-    <div class="container">
-        <div class="booking__content">
-            <div class="inner">
-            <small>Table Booking</small>
-            <h2>Reserve your table</h2>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Ab nemo earum possimus
-                 nihil eligendi ipsa alias. Amet iste dolorum ratione!</p>
-                 <a href="#" class="btn btn-dark">Book Now</a>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item">
+            <img src="./image/tea.jpg" alt="" />
+            <div class="item__info">
+              <h3>Tea</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
         </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="categories py--6">
+      <div class="container">
+        <div class="block__header">
+          <span>Top Categories</span>
+          <h2>Explore our top <span>Menu</span></h2>
+        </div>
+
+        <div class="category__tab">
+          <ul>
+            <li><a href="#">Burger</a></li>
+            <li><a href="#">Chicken</a></li>
+            <li><a href="#">Salad</a></li>
+            <li><a href="#">Drinks</a></li>
+            <li class="active"><a href="#">Tea</a></li>
+          </ul>
+        </div>
+
+        <div class="product__cards">
+          <div class="product__item reverse">
+            <img src="./image/bruger1.png" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item reverse">
+            <img src="./image/burger2.png" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item reverse">
+            <img src="./image/burger3.webp" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item reverse">
+            <img src="./image/burger4.webp" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item reverse">
+            <img src="./image/bruger1.png" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item reverse">
+            <img src="./image/burger2.png" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item reverse">
+            <img src="./image/burger3.webp" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+          <div class="product__item reverse">
+            <img src="./image/burger4.webp" alt="" />
+            <div class="item__info">
+              <h3>Green Salad</h3>
+              <i class="far fa-heart"></i>
+            </div>
+            <div class="item__info">
+              <div class="item__price">
+                <small>Price</small>
+                <h4>$10.00</h4>
+              </div>
+              <div class="item__review">
+                <small>Review</small>
+                <h4><i class="fas fa-star"></i> 432</h4>
+              </div>
+            </div>
+            <a href="#" class="btn btn-outline">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking">
+      <div class="container">
+        <div class="booking__content">
+          <div class="inner">
+            <small>Table Booking</small>
+            <h2>Reserve Your Table</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              minima, ipsum quibusdam temporibus molestiae laudantium sit itaque
+              reprehenderit quas saepe!
+            </p>
+            <a href="#" class="btn btn-dark">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work py--6">
+      <div class="container">
+        <div class="block__header">
+          <span>Our Services</span>
+          <h2>How We <span>Work</span></h2>
+        </div>
+
+        <div class="work__wrapper">
+          <div class="work__card">
+            <i class="fas fa-bag-shopping"></i>
+            <h3>Easy To Order</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates totam hic nam provident aliquid, eveniet distinctio.
+            </p>
+          </div>
+
+          <div class="work__card">
+            <i class="fas fa-bag-shopping"></i>
+            <h3>Pick and Eat</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates totam hic nam provident aliquid, eveniet distinctio.
+            </p>
+          </div>
+
+          <div class="work__card">
+            <i class="fas fa-bag-shopping"></i>
+            <h3>Easy Payment</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates totam hic nam provident aliquid, eveniet distinctio.
+            </p>
+          </div>
+
+          <div class="work__card">
+            <i class="fas fa-bag-shopping"></i>
+            <h3>Fastest Delivery</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates totam hic nam provident aliquid, eveniet distinctio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app py--6">
+      <div class="container">
+        <div class="app__wrapper">
+          <div class="app__content">
+            <h2>To Get Food Download <br />Our <span>Mobile App</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              debitis eaque nisi fugit magni, cupiditate recusandae.
+            </p>
+            <a href="#" class="btn btn-dark">Google Play</a>
+            <a href="#" class="btn btn-dark">Apple Store</a>
+          </div>
+          <div class="app__img">
+            <img src="./image/phone.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials py--6">
+      <div class="container">
+        <div class="block__header">
+          <span>Testimonials</span>
+          <h2>What People Say <span>About</span></h2>
+        </div>
+        <div class="testimonials__wrapper">
+          <div class="testimonials__card">
+            <div class="testimonials__img">
+              <div class="inner">
+                <img src="./image/lisa.jpg" alt="" />
+              </div>
+            </div>
+            <div class="testimonials__content">
+              <h4>Lisa Manoban</h4>
+              <small>Owner</small>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                alias perferendis consequatur dolores.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonials__card">
+            <div class="testimonials__img">
+              <div class="inner">
+                <img src="./image/jennie.jpg" alt="" />
+              </div>
+            </div>
+            <div class="testimonials__content">
+              <h4>Jennie Kim</h4>
+              <small>Owner</small>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                alias perferendis consequatur dolores.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonials__card">
+            <div class="testimonials__img">
+              <div class="inner">
+                <img src="./image/iu.jpg" alt="" />
+              </div>
+            </div>
+            <div class="testimonials__content">
+              <h4>Jin-eun Lee</h4>
+              <small>Owner</small>
+              <ul>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                alias perferendis consequatur dolores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+    <div class="newsletter__wrapper">
+      <h2>Subscribe to our <span>NewsLetter</span></h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid error
+        eum atque perspiciatis maxime necessitatibus consequatur.
+        <form action="">
+          <input type="text" placeholder="Enter Your Email Address">
+          <button>Subscribe</button>
+
+        </form>
+        
+          </p>
+        </div>
+      </section>
+
+      <section class="faq py--6">
+        <div class="container">
+          <div class="block__header">
+            
+        <span>FAQS</span>
+        <h2>Frequently Ask <span>Questions</span></h2>
+      </div>
+
+      <div class="faq__block">
+        <div class="faq__question">
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Inventore natus, dolore praesentium possimus quod qui!</h3>
+    <i class="fas fa-plus"></i>
+        </div>
+          <div class="faq__answer open">
+            <hr>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+       Voluptate, atque!</p>
+
     </div>
 
-</div>
+
+        </div>
+        <div class="faq__block">
+          <div class="faq__question">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Inventore natus, dolore praesentium possimus quod qui!</h3>
+      <i class="fas fa-plus"></i>
+          </div>
+            <div class="faq__answer">
+              <hr>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptate, atque!</p>
+      
+      </div>
+      
+      
+          </div>
+          <div class="faq__block">
+            <div class="faq__question">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Inventore natus, dolore praesentium possimus quod qui!</h3>
+        <i class="fas fa-plus"></i>
+            </div>
+              <div class="faq__answer">
+                <hr>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, atque!</p>
+        
+        </div>
+        
+        
+            </div>
+            <div class="faq__block">
+              <div class="faq__question">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore natus, dolore praesentium possimus quod qui!</h3>
+          <i class="fas fa-plus"></i>
+              </div>
+                <div class="faq__answer">
+                  <hr>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, atque!</p>
+          
+          </div>
+          
+          
+          </div>
+
+  </div>
+  </div>
+  </div>
+
+
+          
+        <footer class="footer py--6">
+        <div class="container">
+        <div class="footer__wrapper">
+        <div class="footer__item">
+        <h3>Food <span> Factory</span></h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+          elit. Et odio ipsum voluptate necessitatibus impedit sapiente.</p>
+
+        </div>
+        <div class="footer__item">
+
+          <h3>Food Factory</h3>
+
+          <ul>
+
+        <li><a href="#"> Menu</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Feedback</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footer__item">
+
+          <h3>Support</h3>
+
+          <ul>
+
+        <li><a href="#"> Menu</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Feedback</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footer__item">
+
+          <h3>Legal</h3>
+
+          <ul>
+
+        <li><a href="#"> Menu</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Feedback</a></li>
+
+          </ul>
+        </div>
+        </div>
+
+        </div>
 
 
 
 
+        </footer>
 
+        <p class="copyright">Copyright &copy; Food Factory 2022 All right reserve</p>
+
+
+        <script>
+
+
+
+
+          const questions = document.querySelectorAll('.faq__question');
+          
+                questions.forEach(question => {
+                  question.addEventListener('click', () => {
+                    question.nextElementSibling.classList.toggle
+                    ('open');
+                    question.classList.toggle('open');
+          
+                  })
+                })
+          
+  
+  </script>
+  </body>
+</html>
 
 </section>
-
-
-
-            
-
-            </body>
-            </html>
